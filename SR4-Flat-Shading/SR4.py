@@ -1,0 +1,12 @@
+from gl import *
+from render import *
+from reader import *
+from vector import *
+
+glCreateWindow(1300, 1300)
+glClearColor(0, 0, 0)
+glColor(1, 0, 0)
+
+glModel('Pharaoh.obj', (100, 100, 500), (650, 0, 0))
+
+glFinish('sr4')
